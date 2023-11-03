@@ -7,7 +7,7 @@ export default function index() {
     <Layout>
       <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-20'>
         <div className='pl-10 pr-10'>
-          <h2 className='text-4xl'>
+          <h2 className=' text-2xl xl:text-4xl'>
             <span className="typed-text">Bienvenido a mi portafolio!</span>
           </h2>
           <p className='pt-8 text-justify'>
