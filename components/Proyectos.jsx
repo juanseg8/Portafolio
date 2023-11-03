@@ -7,9 +7,9 @@ function Proyectos() {
 
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 gap-y-8">
 
-                <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-lg rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-lg rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7] mb-4">
                     <div class="h-52 flex flex-col justify-center items-center rounded-t-xl">
-                        <img src="./mytinerary.jpg" alt="" />
+                        <img className='rounded-xl' src="./mytinerary.jpg" alt="" />
                     </div>
                     <div class="p-4 md:p-6">
                         <h3 class=" mt-3 text-xl font-semibold text-purple-600 dark:text-gray-300 dark:hover:text-white">
@@ -35,9 +35,9 @@ function Proyectos() {
 
 
 
-                <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-lg rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-lg rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7] mb-4">
                     <div class="h-52 flex flex-col justify-center items-center rounded-t-xl">
-                        <img src="./amazingevents.jpg" alt="" />
+                        <img className='rounded-xl' src="./amazingevents.jpg" alt="" />
                     </div>
                     <div class="p-4 md:p-6">
                         <h3 class="mt-3 text-xl font-semibold text-purple-600 dark:text-gray-300 dark:hover:text-white">
@@ -55,9 +55,9 @@ function Proyectos() {
                     </div>
                 </div>
 
-                <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-lg rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-lg rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7] mb-4">
                     <div class="h-52 flex flex-col justify-center items-center rounded-t-xl">
-                        <img src="./techbank.jpg" alt="" />
+                        <img className='rounded-xl' src="./techbank.jpg" alt="" />
                     </div>
                     <div class="p-4 md:p-6">
                         <h3 class="mt-3 text-xl font-semibold text-purple-600 dark:text-gray-300 dark:hover:text-white">

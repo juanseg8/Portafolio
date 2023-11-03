@@ -9,7 +9,7 @@ function Navbar() {
         <header class="mt-2 flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white border-b border-gray-200 text-sm py-3 sm:py-0 bg-gray-800 dark:border-gray-700">
             <nav class="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8" aria-label="Global">
                 <div class="flex items-center justify-between">
-                    <img src="./perfil.jpg" className={`rounded-full mr-3 h-16 w-16 ${router.pathname === '/contacto' ? 'hidden' : ''
+                    <img src="./perfil.jpg" className={`rounded-full mr-3 h-14 w-14 ${router.pathname === '/contacto' ? 'hidden' : ''
                         }`} id="clickable-image" alt="" />
                     <a class="flex-none text-2xl font-semibold dark:text-white" href="#" aria-label="Brand"><h1>Juan Sebastian Guilisasti</h1></a>
                     <div class="sm:hidden">
