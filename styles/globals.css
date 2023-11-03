@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.typed-text {
+  display: inline-block;
+  white-space: nowrap; 
+  overflow: hidden;
+  border-right: 0.15em solid orange; 
+  max-width: 100%; 
+  animation: typing 4s steps(40, end), blink-caret 2s step-end infinite;
+}
+
+@keyframes typing {
+  0%, 25%, 50% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  0%, 50% {
+    border-color: transparent;
+  }
+  25%, 75% {
+    border-color: orange;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
