@@ -5,7 +5,7 @@ function Habilidades() {
 
         <div class="max-w-[85rem] ml-32 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
 
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+            <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
 
 
                 <svg className='w-20 h-20 transform hover:scale-125 transition-transform duration-500 ease-in-out' viewBox="0 0 128 128">
